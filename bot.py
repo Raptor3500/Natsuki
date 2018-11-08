@@ -6,10 +6,6 @@ import os
 import random
 import youtube_dl
 
-startup_extensions = [
-  'cogs.message','cogs.manage'
-]
-
 bot = commands.Bot(command_prefix='natsuki ')
 bot.remove_command('help')
 ownerID = "274298631517896704"
