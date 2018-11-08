@@ -35,14 +35,6 @@ async def say(ctx, *args):
         await asyncio.sleep(1)
         await bot.say(mesg)
         print (ctx.message.author.id + " or " + ctx.message.author.name + " made me say '{}'".format(mesg))
-
-if __name__ == "__main__":
-    for extension in startup_extensions:
-        try:
-            bot.load_extension(extension)
-        except Exception as e:
-            exc = '{}: {}'.format(type(e).__name__, e)
-            print('Failed to load extension {}\n{}'.format(extension, exc))
             
 @bot.command(pass_context=True)
 async def playing(ctx, *args):
