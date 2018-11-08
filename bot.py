@@ -85,7 +85,6 @@ async def rate(str : str):
 @bot.command(pass_context=True)
 async def prune(ctx, number, *args):
   if ctx.message.author.id in ownerID:
-    channel = messages[0].channel
     mgs = [] #Empty list to put all the messages in the log
     number = int(number) #Converting the amount of messages to delete to an integer
     async for x in bot.logs_from(ctx.message.channel, limit = number):
