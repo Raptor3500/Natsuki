@@ -111,7 +111,7 @@ async def choose(str : str, *args):
   
 @bot.command()
 async def doki(str : str):
-  str = str.strip
+  str = str.strip()
   if 'natsuki' or 'Natsuki' in str:
     await bot.say('You wanna hear about me?')
     await bot.say('Ok then')
