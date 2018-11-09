@@ -109,12 +109,16 @@ async def choose(str : str, *args):
   choices = [str, mesg]
   await bot.say('I choose {}'.format(random.choice(choices)))
   
-@bot.command(pass_context=True)
-async def setmygame(ctx, *args):
-  if ctx.message.author.id in ownerID:
-    mesg = ' '.join(args)
-    await bot.change_presence.id in ownerID (game=discord.Game(name= (mesg)))
-    await bot.say("you are now playing " + mesg)
+@bot.command()
+async def dokiinfo(str : str):
+  if 'natsuki' or 'Natsuki' in str:
+    await bot.say('You wanna hear about me?')
+    await bot.say('Ok then')
+    await bot.say('Im the youngest in the literarture club people call me cute even though Im not. My friends in the literature club are Giovanni, Sayori, Yuri, And ~~Monika~~ we have lots of fun in the literature club maybe you can join us!')
+    await bot.say('Do natsuki dokidokiinfo <Doki Doki character mentioned in my message>')
+  if 'sayori' or 'Sayori' in str:
+    await bot.say('So you wanna hear about sayori huh? ok then')
+
         
     
 
