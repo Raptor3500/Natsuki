@@ -138,7 +138,17 @@ async def sayori(ctx):
     
   await bot.say(embed=embed)
     
-
+@bot.command(pass_context=True)
+async def yuri(ctx):
+  await bot.say('onto yuri lets go!')
+  await bot.say('yuri is a shy school girl who likes poetry and reading and has a interesting interest in knives and cutting herself no one knows whys she does it but monika says it might have something to do sexually monika due to jealosu makes yuri more obsessed and insane casuing yuri to commit sucicde')
+  
+  embed.set_author(name=ctx.message.author.name)
+  embed.add_field(name='natsuki', value='best doki', inline=False)
+  embed.add_field(name='sayori', value='2rd best doki', inline=False)
+  embed.add_field(name='m̴̛̛̳̖̜͔͐̍̂̉͆̿̾͛̃̍͒͠ͅͅo̵͎͇͍̹̦͒̈̀̎̒͘͘͠͠n̴̛̬͉̲͒̐ï̶̡̪̹͇͖͗͋̒̏̏̿̒͋͂̕͝͝ḱ̷̨̢̢̭̦̲͎̺̙̥͈͎͚̭͕͑̊̌̓̽̄͛̐́̒̑̎å̷̮̐̄̒', value='ygkbdycsddkssdncsdbjk', inline=False)
+  
+  await bot.say(embed=embed)
         
     
 
