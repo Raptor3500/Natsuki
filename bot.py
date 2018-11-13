@@ -110,13 +110,13 @@ async def choose(str : str, *args):
   await bot.say('I choose {}'.format(random.choice(choices)))
   
 @bot.command()
-async def bestgirl():
+async def bestgirl(ctx):
   await bot.say('You wanna hear about me?')
   await bot.say('Ok then')
   await bot.say('Im the youngest in the literarture club people call me cute even though Im not. My friends in the literature club are Giovanni, Sayori, Yuri, And ~~Monika~~ we have lots of fun in the literature club maybe you can join us!')
   await bot.say('Do natsuki <Doki Doki character mentioned in my message> if you wanna hear about anyone else')
     
-  embed = discord.Embed(name='', description=None, color=0x426ef4)
+  embed = discord.Embed(name='Dokis', description=None, color=0x426ef4)
   embed.set_author(name=ctx.message.author.name)
   embed.add_field(name='sayori', value='2nd best doki', inline=False)
   embed.add_field(name='yuri', value='3rd best doki', inline=False)
