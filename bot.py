@@ -124,19 +124,19 @@ async def bestgirl(ctx):
   
   await bot.say(embed=embed)
   
-  @bot.command(pass_context=True)
-  async def sayori(ctx):
-    await bot.say('ok lets talk about sayori')
-    await bot.say('Sayori is a "happy" person whos best friend is Giovanni my Bf')
-    await bot.say('She later on has depression then cant hang with us anymore but after m̴̛̛̳̖̜͔͐̍̂̉͆̿̾͛̃̍͒͠ͅͅo̵͎͇͍̹̦͒̈̀̎̒͘͘͠͠n̴̛̬͉̲͒̐ï̶̡̪̹͇͖͗͋̒̏̏̿̒͋͂̕͝͝ḱ̷̨̢̢̭̦̲͎̺̙̥͈͎͚̭͕͑̊̌̓̽̄͛̐́̒̑̎å̷̮̐̄̒ was deleted she became self aware and the new club president!')
+@bot.command(pass_context=True)
+async def sayori(ctx):
+  await bot.say('ok lets talk about sayori')
+  await bot.say('Sayori is a "happy" person whos best friend is Giovanni my Bf')
+  await bot.say('She later on has depression then cant hang with us anymore but after m̴̛̛̳̖̜͔͐̍̂̉͆̿̾͛̃̍͒͠ͅͅo̵͎͇͍̹̦͒̈̀̎̒͘͘͠͠n̴̛̬͉̲͒̐ï̶̡̪̹͇͖͗͋̒̏̏̿̒͋͂̕͝͝ḱ̷̨̢̢̭̦̲͎̺̙̥͈͎͚̭͕͑̊̌̓̽̄͛̐́̒̑̎å̷̮̐̄̒ was deleted she became self aware and the new club president!')
     
-    embed = discord.Embed(name='Dokis', description=None, color=0x426ef4)
-    embed.set_author(name=ctx.message.author.name)
-    embed.add_field(name='natsuki', value='best doki', inline=False)
-    embed.add_field(name='yuri', value='3rd best doki', inline=False)
-    embed.add_field(name='m̴̛̛̳̖̜͔͐̍̂̉͆̿̾͛̃̍͒͠ͅͅo̵͎͇͍̹̦͒̈̀̎̒͘͘͠͠n̴̛̬͉̲͒̐ï̶̡̪̹͇͖͗͋̒̏̏̿̒͋͂̕͝͝ḱ̷̨̢̢̭̦̲͎̺̙̥͈͎͚̭͕͑̊̌̓̽̄͛̐́̒̑̎å̷̮̐̄̒', value='ygkbdycsddkssdncsdbjk', inline=False)
+  embed = discord.Embed(name='Dokis', description=None, color=0x426ef4)
+  embed.set_author(name=ctx.message.author.name)
+  embed.add_field(name='natsuki', value='best doki', inline=False)
+  embed.add_field(name='yuri', value='3rd best doki', inline=False)
+  embed.add_field(name='m̴̛̛̳̖̜͔͐̍̂̉͆̿̾͛̃̍͒͠ͅͅo̵͎͇͍̹̦͒̈̀̎̒͘͘͠͠n̴̛̬͉̲͒̐ï̶̡̪̹͇͖͗͋̒̏̏̿̒͋͂̕͝͝ḱ̷̨̢̢̭̦̲͎̺̙̥͈͎͚̭͕͑̊̌̓̽̄͛̐́̒̑̎å̷̮̐̄̒', value='ygkbdycsddkssdncsdbjk', inline=False)
     
-    await bot.say(embed=embed)
+  await bot.say(embed=embed)
     
 
         
