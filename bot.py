@@ -109,7 +109,7 @@ async def choose(str : str, *args):
   choices = [str, mesg]
   await bot.say('I choose {}'.format(random.choice(choices)))
   
-@bot.command()
+@bot.command(pass_context=True)
 async def bestgirl(ctx):
   await bot.say('You wanna hear about me?')
   await bot.say('Ok then')
